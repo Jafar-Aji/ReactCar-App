@@ -1,0 +1,35 @@
+.final{
+    background-color: rgba(0, 0, 0, 0.568);
+    color: rgb(0, 0, 0);
+    min-height: 15vh;
+    padding: 0 ;
+    margin: 0;
+    font-weight: bold;
+}
+.final-2{
+    background-color: rgb(255 255 255 / 53%);
+}
+.footer-link ul{
+text-decoration: none;
+list-style: none;
+}
+.footer-link a{
+    text-decoration: none;
+    color: red;
+}
+#footer-logo img{
+    width: 100%;
+    min-height: 19vh;
+}
+.final-ro    {
+   
+    justify-content: center;
+    vertical-align: middle;
+}
+.final-co{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}

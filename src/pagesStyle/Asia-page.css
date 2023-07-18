@@ -1,0 +1,99 @@
+.asia-page{
+    background-image: url(../images/toyota.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+.text-se{background: rgba(0, 0, 0, 0.479);}
+.text-se p, h2{color: white;}
+.for-title-home{background: none;}
+.all{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.473);
+    min-height: 130vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.asian-sign{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+}
+.asian-company-logo{
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color: rgb(141 140 139 / 73%);
+
+}
+.company-logo img{
+    vertical-align: middle;
+}
+.compan-history {
+    min-height: auto;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1.5rem;
+    
+}
+.compan-head h2{
+    font-weight: bold;
+    color: white;
+
+}
+.compan-info h2{
+    color: white;
+}
+.company-logo img{
+    vertical-align: middle;
+}
+.compan-head , .compan-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#toyota{
+    background-image: url(../images/toyota-car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#kia{
+    background-image: url(../images/kia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mazda{
+    background-image: url(../images/mazda.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mitsubishi{
+    background-image: url(../images/mitsubishi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nissan{
+    background-image: url(../images/nissan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hyndai{
+    background-image: url(../images/hyundai.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

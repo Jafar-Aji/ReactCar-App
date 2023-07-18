@@ -1,0 +1,113 @@
+.us-page{
+    background-image: url(../images/mos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+.first-sec{
+    min-height: 70vh;
+    background-image: url(../images/second.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-he img{
+    min-height: 40vh;
+}
+.text-se p , h2{
+    color: black;
+}
+.all{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.589);
+    min-height: 100vh;
+}
+.all2{
+    min-height: 20vh;
+    
+    
+}
+.for-img{
+   
+    min-height: 30vh;
+    padding: 1rem;
+}
+.for-img img{
+    border-radius: 50%;
+    height: 45vh;
+    width: 100%;
+}
+
+.company-logo{
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+background-color: rgba(128, 128, 128, 0.733);
+
+}
+.company-logo img{
+    vertical-align: middle;
+}
+.compan-head , .compan-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.compan-head h2{
+    font-weight: bold;
+    color: white;
+
+}
+.compan-info h2{
+    color: white;
+}
+
+
+
+.compan-history {
+    min-height: auto;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+#dodge{
+    background-image: url(../images/dodg-car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#chever{
+    background-image: url(../images/chevrolet-car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ford{
+    background-image: url(../images/mustang.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gmcsec{
+    background-image: url(../images/gmc-car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cadilac{
+    background-image: url(../images/cadillac-car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jeep{
+    background-image: url(../images/jeep-car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

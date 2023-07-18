@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {Routes, Route} from "react-router-dom";
+import Home from './pages/Home';
+import Usa from "./pages/Usa";
+import Asia from "./pages/Asia";
+import Euorpe from "./pages/Euorpe";
+import Compancar from "./component/Compancar";
+import Asiadesign from "./component/Asian-car-design";
+import Euorpedesign from "./component/Euorpe-design";
+import Formp from "./pages/Form-page";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+      <Routes>
+        <Route    path="/"  element={<Home/>}/>
+        <Route    path="usa"  element={<Usa/>}/>
+        <Route    path="asia"  element={<Asia/>}/>
+        <Route    path="europe"  element={<Euorpe/>}/>
+        <Route     path="dodge"   element={<Compancar/>} />
+        <Route     path="chever"   element={<Compancar/>} />
+        <Route     path="ford"   element={<Compancar/>} />
+        <Route     path="gmcsec"   element={<Compancar/>} />
+        <Route     path="cadilac"   element={<Compancar/>} />
+        <Route     path="jeep"   element={<Compancar/>} />
+        <Route    path="toyota" element={<Asiadesign/>} />
+        <Route     path="kia"   element={<Asiadesign/>}  />
+        <Route  path="mazda" element={<Asiadesign/>} />
+        <Route   path="mitsubishi" element={<Asiadesign/>} />
+        <Route   path="nissan" element={<Asiadesign/>} />
+        <Route    path="hyndai" element={<Asiadesign/>}  />
+        <Route    path="bmw"  element={<Euorpedesign/>}  />
+        <Route   path="form"  element={<Formp/>} />
+      </Routes>
+
+        
+     
+      </>
+   
   );
 }
 

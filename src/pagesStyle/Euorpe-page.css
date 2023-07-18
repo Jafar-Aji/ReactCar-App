@@ -1,0 +1,90 @@
+.europe-page{
+    background-image: url(../images/e-b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+.europe-company-logo{
+    border-bottom: 1px solid white ;
+}
+.euorp-sign{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+}
+.company-logo img{
+    vertical-align: middle;
+}
+.compan-history-e {
+    min-height: auto;
+    background-color: rgb(248 248 248 / 48%);
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1.9rem;
+    border-radius: 5px;
+    
+}
+.compan-head h2{
+    font-weight: bold;
+    color: white;
+
+}
+.compan-info h2{
+    color: white;
+}
+.company-logo img{
+    vertical-align: middle;
+}
+.compan-head , .compan-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#mercedes{
+    background-image: url(../images/benz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+#bmw{
+    background-image: url(../images/bmw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+#audi{
+    background-image: url(../images/audi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+#volkswagen{
+    background-image: url(../images/volkswagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+#range{
+    background-image: url(../images/range-rover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center; 
+}
+#jaguar{
+    background-image: url(../images/jaguar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center; 
+}
